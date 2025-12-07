@@ -1,0 +1,81 @@
+/* =========================
+   🔥 GLOBAL CSS RESET
+   Modern, clean & optimized
+   ========================= */
+
+/* Remove default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent text selection issues */
+*::selection {
+  background: rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+/* Improve font rendering */
+body,
+button,
+input,
+textarea {
+  font-family: 'IRANSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Full height root for layouts */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Fix mobile flicker + bouncing */
+body {
+  background: #ffffff;
+  color: #111;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove link underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset button styles */
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background: none;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove input zoom on mobile */
+input,
+textarea {
+  font-size: 16px;
+}
